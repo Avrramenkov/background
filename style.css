@@ -1,0 +1,29 @@
+div{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.bg-1{
+    background: url('img/1_big.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+    background-attachment: fixed;
+}
+.bg-2{
+    width: 700px;
+    background: url('img/image040.jpg') center cover / no-repeat #cecece;
+    background-attachment: fixed;
+    box-shadow: 15px 15px 15px #000;
+}
+.hw{
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    background: url('img/image040.jpg') top left / 60px repeat-x,
+                url('img/1_big.jpg') bottom left / 70px repeat-x,
+                url('img/maxresdefault.jpg') top left / 20px repeat-y,
+                url('img/maxresdefault.jpg') top right / 20px repeat-y,
+                url('img/maxresdefault.jpg') center / 400px no-repeat 
+                green;
+}
